@@ -1,6 +1,7 @@
 (ns postmon.core-test
   (:require [clojure.test :refer :all]
-            [postmon.core :refer :all]))
+            [postmon.core :refer :all]
+            [ring.mock.request :as mock]))
 
 (deftest a-test
   (testing "FIXME, I fail."

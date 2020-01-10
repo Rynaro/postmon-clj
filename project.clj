@@ -8,5 +8,7 @@
     [clj-http "3.10.0"]
     [cheshire "5.9.0"]
     [slingshot "0.12.2"]]
-  :profiles {:dev {:dependencies [[midje "1.9.9"]]}}
+  :profiles {:dev {:dependencies [
+    [midje "1.9.9"]
+    [ring/ring-mock "0.4.0"]]}}
   :repl-options {:init-ns postmon.core})
