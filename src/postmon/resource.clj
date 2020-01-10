@@ -9,14 +9,14 @@
 (def api-root
   (str "https://" postmon-domain "/" api-version))
 
-(def cep-resource
-  (str api-root "/cep"))
-
-(def pack-deliver-tracker-resource
-  (str api-root "/rastreio"))
-
 (defn cep [cep-string]
-  (str cep-resource "/" cep-string))
+  (str api-root "/cep/" cep-string))
 
 (defn pack-deliver-tracker [provider code]
-  (str pack-deliver-tracker-resource "/" provider "/" code))
+  (str api-root "/rastreio/" provider "/" code))
+
+(defn uf [uf-symbol]
+  (str api-root "/uf/" uf-symbol))
+
+(defn city [uf-symbol city-name]
+  (str api-root "/cidade/" uf-symbol "/" city-name ))

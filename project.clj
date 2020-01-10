@@ -7,6 +7,6 @@
     [org.clojure/clojure "1.10.0"]
     [clj-http "3.10.0"]
     [cheshire "5.9.0"]
-    [slingshot "0.12.2"]
-  ]
+    [slingshot "0.12.2"]]
+  :profiles {:dev {:dependencies [[midje "1.9.9"]]}}
   :repl-options {:init-ns postmon.core})
