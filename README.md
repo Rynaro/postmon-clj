@@ -1,5 +1,6 @@
 # postmon-clj
 [![Clojars Project](https://img.shields.io/clojars/v/postmon.svg)](https://clojars.org/postmon)
+[![Build Status](https://travis-ci.com/Rynaro/postmon-clj.svg?branch=master)](https://travis-ci.com/Rynaro/postmon-clj)
 
 > Simple wrapper for PostmonAPI
 
