@@ -8,4 +8,8 @@
     [clj-http "3.10.0"]
     [cheshire "5.9.0"]
     [slingshot "0.12.2"]]
-  :repl-options {:init-ns postmon.core})
+  :repl-options {:init-ns postmon.core}
+  :deploy-repositories [["clojars" {:url "https://clojars.org/repo"
+                                    :sign-releases false}]
+                        ["releases" :clojars]
+                        ["snapshots" :clojars]])
