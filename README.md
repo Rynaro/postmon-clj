@@ -61,8 +61,16 @@ _Note: Postmon only supports ECT (Correios - Empresa Brasileira de Correios e Te
 
 #### Exceptions
 
-In case of your query does not return nothing from Postmon services, you will get a custom exception from slingshot! There is the exception for handling.
+In case your query does not return nothing from Postmon services, you will get a custom exception from slingshot! There is the exception for handling.
 
 ```clj
 {:type :postmon.request/nothing-returned :message "nothing returned from postmon"}
 ```
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/Rynaro/postmon-clj.
+
+## License
+
+The lib is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
